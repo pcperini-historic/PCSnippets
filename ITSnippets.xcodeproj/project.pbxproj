@@ -13,6 +13,10 @@
 		73B4C3CE15249E7600727734 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 73B4C3CC15249E7600727734 /* Credits.rtf */; };
 		73B4C3D115249E7600727734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B4C3D015249E7600727734 /* AppDelegate.m */; };
 		73B4C3D415249E7600727734 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B4C3D215249E7600727734 /* MainMenu.xib */; };
+		73B4C3EA1524A30E00727734 /* PCContainerComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B4C3E91524A30E00727734 /* PCContainerComprehension.m */; };
+		73B4C3EB1524A6E600727734 /* Objectify.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B4C3DF15249E9C00727734 /* Objectify.m */; };
+		73B4C3EC1524A6E600727734 /* PCJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B4C3E215249EB000727734 /* PCJSON.m */; };
+		73B4C3ED1524A6E600727734 /* NSObject+RuntimeAssociations.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B4C3E515249F2000727734 /* NSObject+RuntimeAssociations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,22 @@
 		73B4C3C015249E7600727734 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		73B4C3C115249E7600727734 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		73B4C3C215249E7600727734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		73B4C3C515249E7600727734 /* ITSnippets-Info.plist */ = {isa = PBXFileReference; path = "ITSnippets-Info.plist"; sourceTree = "<group>"; };
+		73B4C3C515249E7600727734 /* ITSnippets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITSnippets-Info.plist"; sourceTree = "<group>"; };
 		73B4C3C715249E7600727734 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73B4C3C915249E7600727734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		73B4C3CB15249E7600727734 /* ITSnippets-Prefix.pch */ = {isa = PBXFileReference; path = "ITSnippets-Prefix.pch"; sourceTree = "<group>"; };
+		73B4C3CB15249E7600727734 /* ITSnippets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ITSnippets-Prefix.pch"; sourceTree = "<group>"; };
 		73B4C3CD15249E7600727734 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		73B4C3CF15249E7600727734 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		73B4C3CF15249E7600727734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73B4C3D015249E7600727734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		73B4C3D315249E7600727734 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		73B4C3DE15249E9C00727734 /* Objectify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objectify.h; sourceTree = "<group>"; };
+		73B4C3DF15249E9C00727734 /* Objectify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objectify.m; sourceTree = "<group>"; };
+		73B4C3E115249EB000727734 /* PCJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCJSON.h; sourceTree = "<group>"; };
+		73B4C3E215249EB000727734 /* PCJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCJSON.m; sourceTree = "<group>"; };
+		73B4C3E415249F2000727734 /* NSObject+RuntimeAssociations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+RuntimeAssociations.h"; sourceTree = "<group>"; };
+		73B4C3E515249F2000727734 /* NSObject+RuntimeAssociations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RuntimeAssociations.m"; sourceTree = "<group>"; };
+		73B4C3E81524A30E00727734 /* PCContainerComprehension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCContainerComprehension.h; sourceTree = "<group>"; };
+		73B4C3E91524A30E00727734 /* PCContainerComprehension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCContainerComprehension.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,10 @@
 		73B4C3C315249E7600727734 /* ITSnippets */ = {
 			isa = PBXGroup;
 			children = (
+				73B4C3E71524A2C100727734 /* Container Comprehension Categories */,
+				73B4C3E015249EA000727734 /* Objectify */,
+				73B4C3E315249EB400727734 /* JSON Categories */,
+				73B4C3E615249F2900727734 /* Runtime Associations */,
 				73B4C3CF15249E7600727734 /* AppDelegate.h */,
 				73B4C3D015249E7600727734 /* AppDelegate.m */,
 				73B4C3D215249E7600727734 /* MainMenu.xib */,
@@ -100,6 +116,42 @@
 				73B4C3CC15249E7600727734 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73B4C3E015249EA000727734 /* Objectify */ = {
+			isa = PBXGroup;
+			children = (
+				73B4C3DE15249E9C00727734 /* Objectify.h */,
+				73B4C3DF15249E9C00727734 /* Objectify.m */,
+			);
+			name = Objectify;
+			sourceTree = "<group>";
+		};
+		73B4C3E315249EB400727734 /* JSON Categories */ = {
+			isa = PBXGroup;
+			children = (
+				73B4C3E115249EB000727734 /* PCJSON.h */,
+				73B4C3E215249EB000727734 /* PCJSON.m */,
+			);
+			name = "JSON Categories";
+			sourceTree = "<group>";
+		};
+		73B4C3E615249F2900727734 /* Runtime Associations */ = {
+			isa = PBXGroup;
+			children = (
+				73B4C3E415249F2000727734 /* NSObject+RuntimeAssociations.h */,
+				73B4C3E515249F2000727734 /* NSObject+RuntimeAssociations.m */,
+			);
+			name = "Runtime Associations";
+			sourceTree = "<group>";
+		};
+		73B4C3E71524A2C100727734 /* Container Comprehension Categories */ = {
+			isa = PBXGroup;
+			children = (
+				73B4C3E81524A30E00727734 /* PCContainerComprehension.h */,
+				73B4C3E91524A30E00727734 /* PCContainerComprehension.m */,
+			);
+			name = "Container Comprehension Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B4C3EB1524A6E600727734 /* Objectify.m in Sources */,
+				73B4C3EC1524A6E600727734 /* PCJSON.m in Sources */,
+				73B4C3ED1524A6E600727734 /* NSObject+RuntimeAssociations.m in Sources */,
 				73B4C3CA15249E7600727734 /* main.m in Sources */,
 				73B4C3D115249E7600727734 /* AppDelegate.m in Sources */,
+				73B4C3EA1524A30E00727734 /* PCContainerComprehension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,7 @@
 //  ITSnippets
 //
 //  Created by Patrick Perini on 3/29/12.
-//  Copyright (c) 2012 Inspyre Technologies. All rights reserved.
+//  Copyright (c) 2012 Inspyre Technologies. MIT License.
 //
 
 #import <Cocoa/Cocoa.h>
