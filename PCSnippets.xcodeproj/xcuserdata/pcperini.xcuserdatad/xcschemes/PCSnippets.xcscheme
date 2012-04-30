@@ -15,8 +15,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "73B4C3B815249E7600727734"
                BuildableName = "ITSnippets.app"
-               BlueprintName = "ITSnippets"
-               ReferencedContainer = "container:ITSnippets.xcodeproj">
+               BlueprintName = "PCSnippets"
+               ReferencedContainer = "container:PCSnippets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,8 +33,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73B4C3B815249E7600727734"
             BuildableName = "ITSnippets.app"
-            BlueprintName = "ITSnippets"
-            ReferencedContainer = "container:ITSnippets.xcodeproj">
+            BlueprintName = "PCSnippets"
+            ReferencedContainer = "container:PCSnippets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,8 +52,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73B4C3B815249E7600727734"
             BuildableName = "ITSnippets.app"
-            BlueprintName = "ITSnippets"
-            ReferencedContainer = "container:ITSnippets.xcodeproj">
+            BlueprintName = "PCSnippets"
+            ReferencedContainer = "container:PCSnippets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,8 +70,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "73B4C3B815249E7600727734"
             BuildableName = "ITSnippets.app"
-            BlueprintName = "ITSnippets"
-            ReferencedContainer = "container:ITSnippets.xcodeproj">
+            BlueprintName = "PCSnippets"
+            ReferencedContainer = "container:PCSnippets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

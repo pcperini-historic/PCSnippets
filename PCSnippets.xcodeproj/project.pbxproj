@@ -20,15 +20,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73B4C3B915249E7600727734 /* ITSnippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITSnippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B4C3B915249E7600727734 /* PCSnippets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCSnippets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B4C3BD15249E7600727734 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		73B4C3C015249E7600727734 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		73B4C3C115249E7600727734 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		73B4C3C215249E7600727734 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		73B4C3C515249E7600727734 /* ITSnippets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITSnippets-Info.plist"; sourceTree = "<group>"; };
+		73B4C3C515249E7600727734 /* PCSnippets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSnippets-Info.plist"; sourceTree = "<group>"; };
 		73B4C3C715249E7600727734 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73B4C3C915249E7600727734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		73B4C3CB15249E7600727734 /* ITSnippets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ITSnippets-Prefix.pch"; sourceTree = "<group>"; };
+		73B4C3CB15249E7600727734 /* PCSnippets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCSnippets-Prefix.pch"; sourceTree = "<group>"; };
 		73B4C3CD15249E7600727734 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		73B4C3CF15249E7600727734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73B4C3D015249E7600727734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		73B4C3BA15249E7600727734 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73B4C3B915249E7600727734 /* ITSnippets.app */,
+				73B4C3B915249E7600727734 /* PCSnippets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,10 +109,10 @@
 		73B4C3C415249E7600727734 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				73B4C3C515249E7600727734 /* ITSnippets-Info.plist */,
+				73B4C3C515249E7600727734 /* PCSnippets-Info.plist */,
 				73B4C3C615249E7600727734 /* InfoPlist.strings */,
 				73B4C3C915249E7600727734 /* main.m */,
-				73B4C3CB15249E7600727734 /* ITSnippets-Prefix.pch */,
+				73B4C3CB15249E7600727734 /* PCSnippets-Prefix.pch */,
 				73B4C3CC15249E7600727734 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73B4C3B815249E7600727734 /* ITSnippets */ = {
+		73B4C3B815249E7600727734 /* PCSnippets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73B4C3D715249E7600727734 /* Build configuration list for PBXNativeTarget "ITSnippets" */;
+			buildConfigurationList = 73B4C3D715249E7600727734 /* Build configuration list for PBXNativeTarget "PCSnippets" */;
 			buildPhases = (
 				73B4C3B515249E7600727734 /* Sources */,
 				73B4C3B615249E7600727734 /* Frameworks */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = ITSnippets;
+			name = PCSnippets;
 			productName = ITSnippets;
-			productReference = 73B4C3B915249E7600727734 /* ITSnippets.app */;
+			productReference = 73B4C3B915249E7600727734 /* PCSnippets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Inspyre Technologies";
 			};
-			buildConfigurationList = 73B4C3B315249E7600727734 /* Build configuration list for PBXProject "ITSnippets" */;
+			buildConfigurationList = 73B4C3B315249E7600727734 /* Build configuration list for PBXProject "PCSnippets" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73B4C3B815249E7600727734 /* ITSnippets */,
+				73B4C3B815249E7600727734 /* PCSnippets */,
 			);
 		};
 /* End PBXProject section */
@@ -308,9 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ITSnippets/ITSnippets-Prefix.pch";
-				INFOPLIST_FILE = "ITSnippets/ITSnippets-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ITSnippets/PCSnippets-Prefix.pch";
+				INFOPLIST_FILE = "ITSnippets/PCSnippets-Info.plist";
+				PRODUCT_NAME = PCSnippets;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -319,9 +319,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ITSnippets/ITSnippets-Prefix.pch";
-				INFOPLIST_FILE = "ITSnippets/ITSnippets-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ITSnippets/PCSnippets-Prefix.pch";
+				INFOPLIST_FILE = "ITSnippets/PCSnippets-Info.plist";
+				PRODUCT_NAME = PCSnippets;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73B4C3B315249E7600727734 /* Build configuration list for PBXProject "ITSnippets" */ = {
+		73B4C3B315249E7600727734 /* Build configuration list for PBXProject "PCSnippets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73B4C3D515249E7600727734 /* Debug */,
@@ -338,13 +338,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73B4C3D715249E7600727734 /* Build configuration list for PBXNativeTarget "ITSnippets" */ = {
+		73B4C3D715249E7600727734 /* Build configuration list for PBXNativeTarget "PCSnippets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73B4C3D815249E7600727734 /* Debug */,
 				73B4C3D915249E7600727734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
