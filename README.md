@@ -19,6 +19,7 @@ A collection of my "this'd be cool to have" work.
 - `- arrayByComprehendingWithBlock:`: Creates a new array with the return value of the block, executed for each element in the array. `nil` values will be skipped.
 - `- dictionaryByComprehendingWithBlock:`: Creates a new dictionary with the return value of the block, executed for each key in the dictionary. `nil` values will be skipped.
 
+### PCJSON ###
 - `- isJSONSerializable`: Returns `YES` if the object is a valid JSON object. 
 - `- JSONSerialize`: Returns a string of JSON, which represents a dictionary of this object's property name - property value pairs.
 - `- JSONRepresentation`: Returns a string of JSON, which represents this object.
