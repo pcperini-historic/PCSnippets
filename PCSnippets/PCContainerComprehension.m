@@ -14,7 +14,9 @@
     NSMutableArray *comprehensiveArray = [NSMutableArray array];
     for (id element in self)
     {
-        [comprehensiveArray addObject: comprehensionBlock(element)];
+        id newElement = comprehensionBlock(element);
+        if (newElement)
+            [comprehensiveArray addObject: newElement];
     }
     return comprehensiveArray;
 }
@@ -28,8 +30,10 @@
     NSMutableDictionary *comprehensiveDictionary = [NSMutableDictionary dictionary];
     for (NSString *key in self)
     {
-        [comprehensiveDictionary setObject: comprehensionBlock(key, [self objectForKey: key])
-                                    forKey: key];
+        id newElement = comprehensionBlock(key, [self objectForKey: key]);
+        if (newElement)
+            [comprehensiveDictionary setObject: newElement
+                                        forKey: key];
     }
     return comprehensiveDictionary;
 }
