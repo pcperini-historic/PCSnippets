@@ -13,13 +13,14 @@
 		73A34B73155058E8007B10B5 /* PCSnippets-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73A34B72155058E8007B10B5 /* PCSnippets-Info.plist */; };
 		73A34B7C155058F9007B10B5 /* NSObject+RuntimeAssociations.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A34B75155058F9007B10B5 /* NSObject+RuntimeAssociations.m */; };
 		73A34B7D155058F9007B10B5 /* Objectify.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A34B77155058F9007B10B5 /* Objectify.m */; };
-		73A34B7E155058F9007B10B5 /* PCContainerComprehension.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A34B79155058F9007B10B5 /* PCContainerComprehension.m */; };
+		73A34B7E155058F9007B10B5 /* PCContainerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A34B79155058F9007B10B5 /* PCContainerExtensions.m */; };
 		73A34B7F155058F9007B10B5 /* PCJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A34B7B155058F9007B10B5 /* PCJSON.m */; };
 		73A34B8515505DA4007B10B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 73A34B8415505DA4007B10B5 /* README.md */; };
 		73B4C3BE15249E7600727734 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B4C3BD15249E7600727734 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73A146FF1562BD1E00BE055E /* PCContainerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCContainerExtensions.h; path = PCSnippets/PCContainerExtensions.h; sourceTree = SOURCE_ROOT; };
 		73A34B681550582E007B10B5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PCSnippets/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		73A34B691550582E007B10B5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PCSnippets/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		73A34B6C155058B6007B10B5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PCSnippets/main.m; sourceTree = SOURCE_ROOT; };
@@ -30,8 +31,7 @@
 		73A34B75155058F9007B10B5 /* NSObject+RuntimeAssociations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RuntimeAssociations.m"; path = "PCSnippets/NSObject+RuntimeAssociations.m"; sourceTree = SOURCE_ROOT; };
 		73A34B76155058F9007B10B5 /* Objectify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Objectify.h; path = PCSnippets/Objectify.h; sourceTree = SOURCE_ROOT; };
 		73A34B77155058F9007B10B5 /* Objectify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Objectify.m; path = PCSnippets/Objectify.m; sourceTree = SOURCE_ROOT; };
-		73A34B78155058F9007B10B5 /* PCContainerComprehension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCContainerComprehension.h; path = PCSnippets/PCContainerComprehension.h; sourceTree = SOURCE_ROOT; };
-		73A34B79155058F9007B10B5 /* PCContainerComprehension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCContainerComprehension.m; path = PCSnippets/PCContainerComprehension.m; sourceTree = SOURCE_ROOT; };
+		73A34B79155058F9007B10B5 /* PCContainerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCContainerExtensions.m; path = PCSnippets/PCContainerExtensions.m; sourceTree = SOURCE_ROOT; };
 		73A34B7A155058F9007B10B5 /* PCJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCJSON.h; path = PCSnippets/PCJSON.h; sourceTree = SOURCE_ROOT; };
 		73A34B7B155058F9007B10B5 /* PCJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCJSON.m; path = PCSnippets/PCJSON.m; sourceTree = SOURCE_ROOT; };
 		73A34B8415505DA4007B10B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 		73A34B821550590D007B10B5 /* Container Comprehension */ = {
 			isa = PBXGroup;
 			children = (
-				73A34B78155058F9007B10B5 /* PCContainerComprehension.h */,
-				73A34B79155058F9007B10B5 /* PCContainerComprehension.m */,
+				73A146FF1562BD1E00BE055E /* PCContainerExtensions.h */,
+				73A34B79155058F9007B10B5 /* PCContainerExtensions.m */,
 			);
 			name = "Container Comprehension";
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 				73A34B6D155058B6007B10B5 /* main.m in Sources */,
 				73A34B7C155058F9007B10B5 /* NSObject+RuntimeAssociations.m in Sources */,
 				73A34B7D155058F9007B10B5 /* Objectify.m in Sources */,
-				73A34B7E155058F9007B10B5 /* PCContainerComprehension.m in Sources */,
+				73A34B7E155058F9007B10B5 /* PCContainerExtensions.m in Sources */,
 				73A34B7F155058F9007B10B5 /* PCJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +291,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ITSnippets/PCSnippets-Prefix.pch";
-				INFOPLIST_FILE = "ITSnippets/PCSnippets-Info.plist";
+				GCC_PREFIX_HEADER = "PCSnippets/PCSnippets-Prefix.pch";
+				INFOPLIST_FILE = "PCSnippets/PCSnippets-Info.plist";
 				PRODUCT_NAME = PCSnippets;
 				WRAPPER_EXTENSION = app;
 			};
@@ -302,8 +302,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ITSnippets/PCSnippets-Prefix.pch";
-				INFOPLIST_FILE = "ITSnippets/PCSnippets-Info.plist";
+				GCC_PREFIX_HEADER = "PCSnippets/PCSnippets-Prefix.pch";
+				INFOPLIST_FILE = "PCSnippets/PCSnippets-Info.plist";
 				PRODUCT_NAME = PCSnippets;
 				WRAPPER_EXTENSION = app;
 			};

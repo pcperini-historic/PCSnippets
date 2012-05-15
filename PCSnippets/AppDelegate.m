@@ -10,7 +10,7 @@
 #import "Objectify.h"
 #import "PCJSON.h"
 #import "NSObject+RuntimeAssociations.h"
-#import "PCContainerComprehension.h"
+#import "PCContainerExtensions.h"
 
 @implementation AppDelegate
 
@@ -87,6 +87,9 @@ declareRuntimeAssociationKey(associatedString);
         return $(nil);
     }];
     NSLog(@"%@", dictObj);
+    
+    NSLog(@"%d", [@"invalidKey" isIn: dictObj]);
+    NSLog(@"%d", [[dictObj allKeys] areIn: dictObj]);
 }
 
 @end

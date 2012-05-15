@@ -14,3 +14,12 @@
 @interface NSDictionary (Comprehension)
 - (NSDictionary *)dictionaryByComprehendingWithBlock: (id (^)(NSString *key, id element))comprehensionBlock;
 @end
+
+@interface NSSet (Comprehension)
+- (NSSet *)setByComprehendingWithBlock: (id (^)(id element))comprehensionBlock;
+@end
+
+@interface NSObject (ContainerExtensions)
+- (BOOL)isIn: (id)container;
+- (BOOL)areIn: (id)container;
+@end

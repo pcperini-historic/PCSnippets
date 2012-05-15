@@ -18,6 +18,9 @@ A collection of my "this'd be cool to have" work.
 ### PCContainerComprehension ###
 - `- arrayByComprehendingWithBlock:`: Creates a new array with the return value of the block, executed for each element in the array. `nil` values will be skipped.
 - `- dictionaryByComprehendingWithBlock:`: Creates a new dictionary with the return value of the block, executed for each key in the dictionary. `nil` values will be skipped.
+- `-setByComprehendingWithBlock:`: Creates a new set with the return value of the block, executed for each element in the set. `nil` values will be skipped.
+- `-isIn:`: Returns `YES` if the object is in the given container.
+- `-areIn:`: Returns `YES` if all of the objects in this container object are in the given container.
 
 ### PCJSON ###
 - `- isJSONSerializable`: Returns `YES` if the object is a valid JSON object. 
