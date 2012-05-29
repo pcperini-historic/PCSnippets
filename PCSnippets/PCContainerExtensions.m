@@ -48,7 +48,7 @@
     for (id element in self)
     {
         id newElement = comprehensionBlock(element);
-        if (element)
+        if (newElement)
             [comprehensiveSet addObject: newElement];
     }
     return (NSSet *) [comprehensiveSet copy];
