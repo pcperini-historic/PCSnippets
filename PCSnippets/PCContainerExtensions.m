@@ -77,10 +77,10 @@
 - (BOOL)areIn:(id)container
 {
     BOOL elementsAreInContainer = NO;
-    if ([self respondsToSelector: @selector(countByEnumeratingWithState:objects:count:)])
+    if ([self conformsToProtocol: @protocol(NSFastEnumeration)])
     {
         elementsAreInContainer = YES;
-        for (id element in self)
+        for (id element in (id<NSFastEnumeration>) self)
         {
             elementsAreInContainer &= [element isIn: container];
         }
