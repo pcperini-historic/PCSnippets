@@ -9,7 +9,6 @@
 #import "NSWindow+Flipping.h"
 #import <QuartzCore/QuartzCore.h>
 
-#if 1
 #pragma mark NSAnimation Subclassing
 #pragma mark - Internal Constants
 NSInteger const NSWindowFlippingAnimationNullDuration = 1.0E8;
@@ -336,4 +335,3 @@ static NSWindow *flippingContainerWindow;
 }
 
 @end
-#endif
