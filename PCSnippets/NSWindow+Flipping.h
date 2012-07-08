@@ -16,4 +16,6 @@
 #pragma mark - Flipping
 - (void)flipToShowWindow:(NSWindow *)window forward:(BOOL)forward;
 
+#define swapf(f1, f2) {float _ss; _ss = f1; f1 = f2; f2 = _ss;}
+
 @end
