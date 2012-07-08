@@ -4,6 +4,9 @@ A collection of my "this'd be cool to have" work.
 
 ## What's Inside? ##
 
+### NSWindow+Flipping ###
+- `- flipToShowWindow:forward:`: Animates a flip between this window and another window. Straightforward, the way it should be.
+
 ### NSObject+RuntimeAssociations ###
 - `- associateWithObject:forKey: and friends`: Creates a runtime link with the given object, via the given key object. Typically, the key is a `void *` set up with `declareRuntimeAssociationKey()`.
 - `- associatedObjectForKey:`: Gets the object linked via the given key. This key was set with an association, and is typically gotten with `runtimeAssociationKey()`.
