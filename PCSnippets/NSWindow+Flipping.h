@@ -4,6 +4,7 @@
 //
 //  Created by Patrick Perini on 7/7/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Special thanks to Rainer Brockerhoff for NSWindow_Flipr.
 //
 
 #import <Cocoa/Cocoa.h>
