@@ -317,6 +317,7 @@ static NSWindow *flippingContainerWindow;
         
         [flippingContainerWindow setMovable: YES];
         [flippingContainerWindow setMovableByWindowBackground: YES];
+        [flippingContainerWindow setCollectionBehavior: NSWindowCollectionBehaviorMoveToActiveSpace];
         
         NSWindowFlippingView *flippingView = [[NSWindowFlippingView alloc] initWithFrame: NSWindowFlippingContainerWindowDefaultContentRect
                                                                         andOriginalFrame: NSWindowFlippingContainerWindowDefaultOriginalFrame];
