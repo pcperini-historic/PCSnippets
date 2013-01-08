@@ -315,6 +315,9 @@ static NSWindow *flippingContainerWindow;
         [flippingContainerWindow setOneShot: YES];
         [flippingContainerWindow setBackgroundColor: [NSColor clearColor]];
         
+        [flippingContainerWindow setMovable: YES];
+        [flippingContainerWindow setMovableByWindowBackground: YES];
+        
         NSWindowFlippingView *flippingView = [[NSWindowFlippingView alloc] initWithFrame: NSWindowFlippingContainerWindowDefaultContentRect
                                                                         andOriginalFrame: NSWindowFlippingContainerWindowDefaultOriginalFrame];
         [flippingView setAutoresizingMask: NSViewWidthSizable | NSViewHeightSizable];
